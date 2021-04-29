@@ -1,0 +1,49 @@
+body{
+	background-color:#96BFC8;
+	width:1000px;
+	color:black;
+}
+
+main{
+	padding:10px;
+}
+
+nav{
+	background-color:#ce1010;
+	height:100px;
+	width:1000px;
+	color:black;		
+}
+
+li{
+	padding-top:30px;
+	padding-left:45px;
+	font-size:20px;
+	display:inline-block;
+	background-color:#ce1010;
+	margin-right:150px;
+	color:black;
+	list-style-type:none;
+}
+	
+h1{
+	text-align:center;
+	font-family:sans-serif;
+}
+
+.evaluation{
+	margin:0;
+}
+
+a:link{
+	color:#000000;
+	text-decoration:none;
+	background-color:transparent;
+}
+
+a:hover{
+	color:#301680;
+	text-decoration:none;
+	background-color:transparent;
+}
+

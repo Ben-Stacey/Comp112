@@ -1,0 +1,70 @@
+/*css for accessibility lab 19-5-08 Nick Meek*/
+body{
+	font-family:Arial, sans-serif;
+	width:700px;
+	margin:0 auto;
+	background-color:#dcdcdc;
+	color:#000000;
+	font-size:medium;
+}
+
+p{
+	color:#000000;
+	background-color:inherit;
+}
+
+/* Navigation */
+
+#nav{
+	width:145px;
+	margin-left:560px;
+}
+
+#nav ul{
+	list-style-type:none;
+	padding:10px;
+}
+
+#nav img{
+	border: 0px solid black;
+}
+
+/* Content */
+#content{
+	width:550px;
+	float:left;
+	border-right:dashed 1px #111111;
+	margin-right:3px;
+	padding-right:5px;
+}
+
+.picture{
+	float:left;
+	width:200px;
+	margin:10px;
+}
+
+.verse{
+	float:left;
+	width:300px;
+	font-size:11pt;
+	color:inherit;
+	background-color:inherit;
+}
+
+.clearing{
+	clear:left;
+}	
+
+/* Table Stuff */
+td{
+	padding:2px 10px 2px 10px;
+}
+
+
+/* Form */
+
+form{
+	color:#000000;
+	background-color:inherit;
+}

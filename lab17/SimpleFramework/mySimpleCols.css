@@ -1,0 +1,14 @@
+div{
+border: solid black 1px;
+}
+
+.row1. .row2{
+float:left
+clear:left;
+}
+
+.col3{
+float:right;
+}
+
+

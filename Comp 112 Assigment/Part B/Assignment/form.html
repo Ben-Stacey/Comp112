@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Nick Meek 2019-->
+	<head>
+		<meta charset="utf-8">
+		<title>Mama Bear Child Care: Home</title>
+		<link rel="stylesheet" href="form.css">
+	</head>
+	<body>
+		<header>
+			<figure>
+				<img src="Images/banana.jpg" alt="kid holding banana" height="150" width="150">
+			</figure>
+			<h1>Welcome to Mama Bear Child Care.</h1>
+			<nav>
+				<ul>
+					<li class="bar"><a href="index.html">Home</a></li>
+					<li class="bar"><a href="about.html">About</a></li>
+					<li class="bar"><a href="timetable.html">Timetable</a></li>
+					<li class="bar"><a href="staff.html">Staff</a></li>
+					<li class="bar"><a href="ethics.html">Ethics</a></li>
+					<li class="bar"><a>Survey</a></li>
+				</ul>
+			</nav>
+		</header>
+		<form method="get" enctype="application/x-www-form-urlencoded" action="https://www.google.com/">
+			<input type="hidden" name="recipient" value="stabe145@student.otago.ac.nz">
+			<input type="hidden" name="subject" value="">
+			<h2>Mama Bear Child Care Service Survey</h2>
+			<fieldset>
+				<legend>Your Information</legend>
+				<p>
+					<label for="Parent's"> Parent's Name: </label>
+					<input type="text" id="Parent's" name="Parent's Name" size="50" maxlength="255" value="" tabindex="1" title="Parents name" placeholder="Parent's Name">
+				</p>
+				<p>
+					<label for="Child's">Child's Name: </label>
+					<input type="text" id="Child's" name="Child's Name" size="50" maxlength="255" value="" tabindex="2" title="Childs name" placeholder="Child's Name">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Program Participated In</legend>
+				<p>
+				<label>
+					<input type="radio" name="the child care centre" value="" tabindex="1" title="the child care centre">The Child Care Centre
+				</label>
+				<p>
+				<p>
+				<label>
+					<input type="radio" name="accelerated program" value="" tabindex="2" title="accelerated program">Accelerated Program
+				</label>
+				<p>
+				<p>
+				<label>
+					<input type="radio" name="the prepared enviroment" value="" tabindex="3" title="the prepared enviroment">The Prepared Environment
+				</label>
+				<p>
+			</fieldset>
+			<fieldset>
+				<legend>Quality of Service</legend>
+				<p><label><input type="radio" name="terrible" value="" tabindex="1" title="terrible">Terrible</label></p>
+				<p><label><input type="radio" name="poor" value="" tabindex="2" title="poor">Poor</label></p>
+				<p><label><input type="radio" name="average" value="" tabindex="3" title="average">Average</label></p>
+				<p><label><input type="radio" name="good" value="" tabindex="4" title="good">Good</label></p>
+				<P>
+					<label><input type="radio" name="excellent" value="" tabindex="5" title="excellent">Excellent</label>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Would You Recommend Us?</legend>
+				<p><label><input type="radio" name="yes" value="" tabindex="1" title="yes">Yes</label></p>
+				<p><label><input type="radio" name="no" value="" tabindex="2" title="no">No</label></p>
+			</fieldset>
+			<fieldset>
+				<legend>What Would You Change</legend>
+				<p>
+					<input type="text" name="what would you change" size="50" maxlength="255" value="" tabindex="1" title="what could we change" placeholder="What Would You Change">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Additional Comments</legend>
+				<p>
+					<input type="text" name="additional comments" size="50" maxlength="255" value="" tabindex="1" title="additional comments" placeholder="Additional Comments">
+				</p>
+			</fieldset>
+			<p><input id="submit" type="reset" value="reset"></p>
+			<p><input type="submit" value="submit"></p>
+			<p>Thank You</p>
+		</form>
+		<footer>
+			<p id="center">This site was created as part of a <a href="http://otago.ac.nz">University</a> project and is entirely fictitious
+			</p>
+		</footer>
+	</body>
+</html>

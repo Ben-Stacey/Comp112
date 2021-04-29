@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="accessabilityform.css">
+		<title>Toyger Request</title>
+	</head>
+	<body>
+		<p>
+			Please complete the form below to register your interest in purchasing a Toyger. We will be in touch with further details about the cats available.
+		</p>
+		<form method="get" enctype="application/x-www-form-urlencoded" action="http://www.cs.otago.ac.nz/112bin/112formslab.cgi">
+			<input type="hidden" name="recipient" value="stabe145@student.otago.ac.nz">
+			<input type="hidden" name="subject" value="Test">
+			<input type="hidden" name="followup-page" value="https://www.cs.otago.ac.nz/comp112/followup.html">
+			<fieldset class="textinputs">
+				<legend>Contact Details</legend>
+				<ul>
+					<li>
+						<label for="firstname">Firstname:</label>
+						<input type="text" id="firstname" tabindex="1" name="firstname" title="your first name and any middle names" required pattern="[A-Za-z]" placeholder="Please enter your first name">
+					</li>
+					<li>
+						<label for="surname">Surname:</label>
+						<input type="text" id="surname" name="surname" tabindex="2" title="your surname" required pattern="[A-Za-z]" placeholder="Please enter your surname">
+					</li>
+					<li>
+						<label for="sender">Email Address:</label>
+						<input type="email" id="sender" name="sender" tabindex="3" title="your email address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Please enter your email address">
+					</li>
+					<li>
+						<label for="phone">Phone Number:</label>
+						<input type="tel" id="phone" name="phone" tabindex="4" title="your phone number" required pattern="[0-9 () -]+" placeholder="Please enter your phone number">
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="contact">
+				<legend>Contact preference</legend>
+				<ul>
+					<li>
+						<label>
+							<input type="radio" name="contactpreference" id="emailcontact" value="email" tabindex="1" title="do your prefer to be contacted by email?" required>Email
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="radio" name="contactpreference" value="phone" id="phonecontact" tabindex="2" title="do your prefer to be contacted by phone?" required>Phone
+						</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="cat">
+				<legend>Cat Requirements</legend>
+				<ul>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="kitten" value="kitten" tabindex="1" title="is your kitten?">Kitten
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="cat" value="cat" tabindex="1" title="is your cat mature?">Mature
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="pet" value="pet" tabindex="3" title="is your a cat a pet?">Pet
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="show" value="show" tabindex="4" title="is your cat a show cat?">Show
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="queen" value="queen/stud" tabindex="5" title="is your cat a female?">Queen
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="interestedin" id="stud" value="stud" tabindex="6" title="is your cat a male?">Stud
+						</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>Comments</legend>
+				<textarea cols="40" name="comments" rows="4" id="comments">Add your comments here</textarea>
+			</fieldset>
+			<fieldset class="button">
+				<input type="reset" name="reset">
+				<input type="submit" value="submit">
+			</fieldset>
+		</form>
+		<figure>
+			<img src="toyger.jpg" alt="A toyger">
+		</figure>
+		<p>Thank you!</p>
+	</body>
+</html>

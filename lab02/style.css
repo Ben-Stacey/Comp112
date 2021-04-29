@@ -1,0 +1,16 @@
+html { 
+	background-color: red;
+	width: 600px;
+} 
+
+h1 {
+	background-color: blue;
+	width:50%;
+	border: 15px;
+	margin: 50px;
+	text-align:center;
+}
+
+h2{
+	background-color: blue;
+}

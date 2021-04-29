@@ -1,0 +1,28 @@
+/* Ben Stacey, Mar 2019. Style sheet for activity 7 */
+html {
+	color:red;
+	background-color: blue;
+	font-family: Geneva,sans-serif;
+}
+
+h1{
+	font-size: x-large;
+	color: red;
+	background-color: blue;
+	font-style: Italic;
+	text-align: center;
+}
+
+h2{
+	font-size: large;
+	color: red;
+	background-color: blue;
+	text-decoration: underline;
+}
+
+p{
+	font-size:medium;
+	color: red;
+	background-color: blue;
+	text-indent: 50px;
+}

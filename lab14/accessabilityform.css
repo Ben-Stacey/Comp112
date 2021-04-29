@@ -1,0 +1,78 @@
+body{
+	font-family:serif;
+	font-size:14px;
+	width:600px;
+	background-color:blue;
+	color:black;
+}
+	
+fieldset{
+	background-color:#BFBF30;
+	padding:0px;
+	color:black;
+}
+
+legend{
+	background-color:#FFE773;
+	border:1px solid black;
+	color:black;
+}
+
+.textinputs label{
+	float:left;
+	width:150px;
+}
+
+.textinputs input{
+	float:left;
+	width:230px;
+}
+
+.textinputs li{
+	clear:both;
+	height:1.5em;
+	margin-bottom:5px;
+	list-style-type:none;
+}
+
+li{
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+	
+figure{
+	float:left;
+	margin:0px;
+	padding-top:61px;
+	padding-bottom:90px;
+	background-color:black;
+	color:grey;
+}
+
+p{
+	clear:left;
+}
+
+fieldset:last-child{
+	text-align:right;
+}
+
+form{
+	float:left;
+	width:450px;
+	background-color:yellow;
+	padding:10px;
+	color:black;
+}
+
+.cat li{
+	width:33%;
+	list-style-type:none;
+}
+
+.contact li{
+	width:33%;
+	list-style-type:none;
+}
+

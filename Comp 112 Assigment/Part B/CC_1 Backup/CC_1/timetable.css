@@ -1,0 +1,97 @@
+/* Stylesheet for timetable.html */
+/* By Ben Stacey 2157359 */
+body{
+	font-family:Raleway, Times, serif;
+	width:1000px;
+	margin:auto;
+	background-color:#33CCCC;
+	color:black;
+}
+
+/* Header*/
+h1{
+	font-family:'Great Vibes', Times, serif;
+	font-size:50px;
+}
+
+.bar{
+	display:inline;
+	margin-left:5px;
+	width:70px;
+	font-family:Raleway, Times, serif;
+}
+
+header, .bar, section{
+	border: 1px solid black;
+}
+
+header{
+	border-radius:20px;
+	margin-bottom:25px;
+	padding:20px;
+	overflow:auto;
+	background-color:#009999;
+	color:inherit;
+	margin-top:20px;	
+}
+
+figure{
+	float:left;
+	clear:left;
+}
+
+nav{
+	float:right;
+	position:relative;
+	top:50px;
+}
+
+/* Body */
+section{
+	border-radius:20px;
+	margin-bottom:25px;
+	padding:10px;
+	background-color:#009999;
+	color:inherit;
+}
+
+p{
+	text-align:justify;
+}
+
+h2, h1, figure{
+	margin:0px;
+}
+
+/* Table */
+table{
+	padding:2px 5px;
+	border-collapse:collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-of-type(even) {
+	background-color: #f2f2f2;
+	color:inherit;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #A4AAA4;
+	color:inherit;	
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+th, .time{
+	text-align:left;
+}
+
+/* Footer */
+#center, td .bar{
+	text-align:center;
+}
+
+
